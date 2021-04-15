@@ -8,6 +8,7 @@ import java.util.TimerTask;
         private Bird flappy = new Bird(0, 0, 100, 100);
         private GameView gameView;
 
+
         public GameController(GameView gameView) {
             this.gameView = gameView;
             init();
